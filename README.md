@@ -1,5 +1,12 @@
 **Status:** Archive (code is provided as-is, no updates expected)
 
+
+setup:
+for gpu: set the environment variable "CUDA_VISIBLE_DEVICES"
+export CUDA_VISIBLE_DEVICES=1
+
+Version of gym: 0.10.5
+install baseline of openai (from github, ojo: reinstall downgrade the version of gym to make it compatible with the code)º
 ## [Exploration by Random Network Distillation](https://arxiv.org/abs/1810.12894) ##
 
 
